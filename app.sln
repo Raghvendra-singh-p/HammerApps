@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hammer.Core", "Hammer.Core", "{3E19C9B5-DEA2-4EF5-95DE-93283352EE6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hammer.Application", "Hammer.Application", "{DF7E3E38-1F07-4659-8C6F-4C1B5674CE70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hammer.Infrastructure", "Hammer.Infrastructure", "{85F18522-208C-4D19-B94A-5F214BC8A19E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hammer.Api", "Hammer.Api", "{10401FD3-2B72-490E-AB18-3803E7CE13F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HammerApi", "HammerApi\HammerApi.csproj", "{52DBA33B-40D4-4496-9BDC-76470A9241EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52DBA33B-40D4-4496-9BDC-76470A9241EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52DBA33B-40D4-4496-9BDC-76470A9241EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52DBA33B-40D4-4496-9BDC-76470A9241EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52DBA33B-40D4-4496-9BDC-76470A9241EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52DBA33B-40D4-4496-9BDC-76470A9241EF} = {10401FD3-2B72-490E-AB18-3803E7CE13F6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5040EF90-24CA-4CD9-A35D-871F4A2D3420}
+	EndGlobalSection
+EndGlobal

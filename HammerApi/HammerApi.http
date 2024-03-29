@@ -1,0 +1,6 @@
+@HammerApi_HostAddress = http://localhost:5182
+
+GET {{HammerApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
